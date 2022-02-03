@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
     robotbit.MotorRunDual(
     robotbit.Motors.M2A,
     -95,
